@@ -26,12 +26,12 @@ body::before {
 }
 
 a {
-  color: #ff0000;
+  color: #ff7043;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ff3333;
+  color: #ff9776;
   text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ff0000;
+  background: #ff7043;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #ff2929;
+  background: #ff8f6c;
   color: #fff;
 }
 
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100px;
   padding: 15px 0;
   background: rgba(255, 255, 255, 0.12);
-  border-top: 5px solid #ff0000;
+  border-top: 5px solid #ff7043;
 }
 
 #header .countdown div h3 {
@@ -157,6 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 300px;
   margin-top: 10px;
   background: #fff;
+  border-radius: 10px;
   padding: 6px 10px;
   position: relative;
   text-align: left;
@@ -166,6 +167,8 @@ h1, h2, h3, h4, h5, h6 {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 #header .subscribe .subscribe-form input[type="submit"] {
@@ -177,14 +180,16 @@ h1, h2, h3, h4, h5, h6 {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ff0000;
+  background: #ff7043;
   color: #fff;
   transition: 0.3s;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 #header .subscribe .subscribe-form input[type="submit"]:hover {
-  background: #f50000;
+  background: #ff6839;
 }
 
 #header .subscribe .error-message {
@@ -267,7 +272,7 @@ section {
 }
 
 .section-bg {
-  background-color: #fff5f5;
+  background-color: white;
 }
 
 .section-title {
@@ -318,7 +323,7 @@ section {
   top: 12px;
   position: absolute;
   font-size: 20px;
-  color: #ff0000;
+  color: #ff7043;
 }
 
 .about .content p:last-child {
@@ -384,12 +389,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #ff0000;
+  background: #ff7043;
   color: #fff;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #ff0000;
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #ff7043;
   color: #fff;
 }
 
@@ -450,8 +457,9 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 10px;
   box-shadow: none;
   font-size: 14px;
   background: rgba(255, 255, 255, 0.1);
@@ -467,7 +475,8 @@ section {
   color: rgba(255, 255, 255, 0.4);
 }
 
-.contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
+.contact .php-email-form input::placeholder,
+.contact .php-email-form textarea::placeholder {
   color: rgba(255, 255, 255, 0.4);
 }
 
@@ -480,7 +489,8 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #ff0000;
+  background: #ff7043;
+  border-radius: 10px;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -488,7 +498,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #ff3333;
+  background: #ff9776;
 }
 
 @-webkit-keyframes animate-loading {
@@ -532,5 +542,5 @@ section {
 }
 
 #footer .credits a {
-  color: #ff3333;
+  color: #ff9776;
 }
